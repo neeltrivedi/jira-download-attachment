@@ -1,0 +1,8 @@
+{
+  "searchString": "project = \"MELT Project\" AND type = \"Test Execution\" AND \"Test Suite\" = \"QA / Functional Test\" and status in (\"T.E. Passed\") and attachments is not EMPTY",
+  "optional":
+    {
+      "fields": ["issuetype", "summary", "assignee", "priority", "status", "issuelinks", "type", "outwardIssue", "resolution", "created", "updated", "fixVersions", "environment", "description", "customfield_10304", "customfield_10412", "fields", "attachment"],
+      "maxResults" : "1000"
+    }
+}
